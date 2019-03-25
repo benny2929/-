@@ -9,11 +9,11 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('------------------')
-    await client.change_presence(game=discord.Game(name='ぞし', type=1))
+    await client.change_presence(game=discord.Game(name='陇戮陇路', type=1))
 
 @client.event
 async def on_message(message):
-    if message.content.startswith('没家'):
-        await client.send_message(message.channel, '!没家 99')
+    if message.content.startswith('脙禄录脪'):
+        await client.send_message(message.channel, '!脙禄录脪 99')
 
-client.run('NTU4NTMzM2NDgxMjgx.D3oqdQ.GLCETDrk9IOn1I0OR44G-JNGMk')
+client.run('NTU4NTMzOTQ0NzM2NDgxMjgz.D3oqdQ.GLCET0Drk9IOn1I0OR44G-JNGMk')
